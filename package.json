@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ./src/electron/index.ts",
+    "start": "electron ./out/electron/index.js",
     "build": "tsc && Copy .\\src\\website\\index.html  .\\out\\website\\index.html",
     "build:watch":"npm run build -- --watch"
   },
