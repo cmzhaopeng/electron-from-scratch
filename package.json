@@ -1,0 +1,19 @@
+{
+  "name": "electron-from-scratch",
+  "version": "1.0.0",
+  "description": "tutorial form medium.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ./src/electron/index.ts",
+    "build": "tsc && Copy .\\src\\website\\index.html  .\\out\\website\\index.html",
+    "build:watch":"npm run build -- --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "devDependencies": {
+    "electron": "^27.0.0",
+    "typescript": "^5.2.2"
+  }
+}
